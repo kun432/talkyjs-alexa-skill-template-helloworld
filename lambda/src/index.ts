@@ -9,7 +9,7 @@ const config: TalkyJSSkillConfig = {
     logLevel: 'info',                       // [Optional] Log level
     database: {                             // [Optional] Database configuration
         type: "none",                       // [Optional] Database type (none / s3 / dynamodb)
-    //  tableName: '',                      // [Optional] Database table name
+        tableName: '',                      // [Optional] Database table name
     //  s3PathPrefix: ''                    // [Optional] [Only S3] S3 path prefix
     },
     // skillId: '',                         // [Optional] Skill ID
